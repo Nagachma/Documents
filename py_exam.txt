@@ -1,0 +1,441 @@
+##############https://chatgpt.com/share/21c007f4-7a0d-446f-ac22-2be894b956a2#####################
+
+
+1)Multithreaded python server program includes which of the following modules ? a)python-server.py b)python-clientA.py c)python-clientB.py d) None
+
+d)None of the above 
+
+2)which of the below command is correct on invoking an HTML page(home.html) in a python code using the Flask framework a) render_template("home.html"), b) template("home.html") c) render("home.html") d)None of the above
+
+a) render_template("home.html")
+
+3)which are  the following is the GUI in python a)TK inter b)WX python c) J python d) all of the above
+
+d) all of the above
+
+4)how to return the current directory stack in iPython(jupyter) Notebook a) %DIRS b)%GUI c) %ENV d) %DIR 
+
+a) %DIRS
+
+5)what do you call the languages that support classes but not polymorphism a)class based language b) procedure oriented language c) object oriented language
+
+c) object oriented language
+
+6)which among the following is not true of polymorphism a) feature of object oriented program b) ease in readability of program c) helps in redefining the same functonality d) increase overhead of functin definaton always
+
+d) increase overhead of functin definaton always
+
+7)what is the relationship between docker image and docker container a) container is a runnable copy of a an image b) container contains images option c) a container is a template of creating images d) an image is a container
+
+a) container is a runnable copy of a an image
+
+8)which port is used for default HTTP connection ? a)21 b)22 c)80 d)443
+
+c)80
+
+9)following command displays the list of spiders using a CRA-PY a) list b) spider c) view d) all of the above
+
+a) list
+
+10) what are orange widgets a) components in orange converse b) represents some self-contained functonalities c) the interface which is most often split two controls and the main area d) None of the above  
+
+b) represents some self-contained functonalities
+
+11) which of the following HTTP methods should be used to create a resource using RESTful web services a ) get b) delete c) put d ) optons 
+
+c) put
+
+12) follwing parameters of spark context is used for cluster URL a) master b ) conf c) gateway d) spark-home
+
+a) master
+
+13) pretty good privacy PGP a) browser security b) email security c) FTP security d) non of the above 
+
+b) email security
+
+following parameter of the sparkcontainer context is used for spark installation directory a) master b) conf c) gateway d) spark home
+
+d) spark home
+
+14) how do you create a private docker registry a) by pulling a registry image b)  using docker machine c) you can't d) by creating a directory of images
+
+c) you can't
+
+15) what is database which is built for natural language processing ? it only includes groups of synonyms and a brief defination a) twitter b) wordnet c) image d) alaxnet 
+
+b) wordnet
+
+16) what is the differnce in tuples and lists both containing 4 elements init a) list allows less memory than tuples b) tuples allocate less memory than lists c) no differnce d) none of the above 
+
+b) tuples allocate less memory than lists
+
+17) followng parameter of the spark context is used for intializing a new JVM a) master b) conf c) gateway d ) spark home 
+
+b) conf
+
+18) textblob uses following API as its backend in python a)NLTK b) gate c) none of the above  
+
+a)NLTK
+
+
+
+
+def h(n):
+    for i in range(2, n):
+        if n % i == 0:
+            return True
+    return False
+
+print(h(n))
+
+A) n is multiple of 2  B) n is composite number C) n is prime number D) n has at least two distinct factors other than 1 and n.
+
+D) n has at least two distinct factors other than 1 and n.
+
+
+19) Which of the following packages used for text analysis? a) Text Blob b) NLTK C) Scikit-learn D) Gensim
+
+ans )a,b,c,d 
+
+20) Which of the following lines return a high value of the GPIO pin configured as output with the instance of mraa.gpio named GPIO10? A) GPIO10.write(0) , B)GPIO10.wright(1), C) GPIO10.write(mraa.high_value) D) all of the above
+
+B)GPIO10.wright(1)
+
+21) How you will decide the topic of the corpus? a) sklearn.decomposition.	 B)sklearn.manifold.TSNE C ) None of the above.
+
+C) None of the above.
+
+22) Which of the following line configure the instance of mraa.gpio named gpio 10 for digital output? A) gpio10.dir(mraa.dir_digital).out() B) gpio10.dir(mraa.dir_our) C) gpio10.dir(mraa.dir_out, mraa.digital)  D) all of the above
+
+A) gpio10.dir(mraa.dir_digital).out()
+
+
+23) Which is standalone WSGI containers? A) GUNICORN B) TORNADO C) GEVENT D) GANNTT
+
+A) GUNICORN
+
+24) NumPy.save() File stores the input array in a disk file with the following extension option a) .py,  b) .npy, c) .ipynb, d) .pynb
+
+b) .npy
+
+25)Cloud ML module of GCP uses following modules A)TensorFlow B) Keras C) XGBoost D) Scikit-learn
+
+ans) All
+
+26)Different ways of building RNN using TensorFlow is as follows A) Unidirectional B) Directionality Unidirectional or Bidirectional C) Type often either A, vanilla RNN, a long short term memory D) All of the above
+
+D) All of the above
+
+27) If the data is scalar value while creating series in pandas, then A) an index must be provided. B) the value will be repeated to match the length of the index. C) none of the mentioned
+
+A) an index must be provided.
+
+28) Point out the wrong statement. A) the customer take no responsibility for maintaining the hardware, the software, or the development of the applications  B) the vendor is responsible for all operational aspects of the service  C) Google App Engine platform is A, IAAS offering D) none of the above.
+
+C) Google App Engine platform is A, IAAS offering
+
+29) If Label is duplicated in Pandas DataFrame, then which will be dropped while deleting the row? A) Multiple Rows B) Single Row Option C) All Rows
+
+C) All Rows
+
+30) What is the method to retrieve the list of all active threads? A) Threads B) Enumerate C) Get Threads  D) Get List
+
+B) Enumerate
+
+31) which of the following module is being used to read or write the complex binary data formats? a)support b)struct c)binary d)G3 e)Isdn
+
+b) struct
+
+32)which is incorrect way of creating tuple? a)("python"_"nodejs") b)"python"_"nodejs" c){"python"_"nodejs"} d)() e)NONE
+
+a,b,c
+
+33) what is gil in python a) GIL is a global interpreter lock which prevents multithreading at once in cpython b)GIL is a global interpreter lock which prevents multiprocessing at once in cpython c) GIL is a global increment  lock which prevents multithreading at once d) GIL is a global increment  lock which prevents multiprocessing at once in cpython
+
+a) GIL is a global interpreter lock which prevents multithreading at once in cpython
+
+34)how to read dataset using pandas _data_public_employee.sas7bdat 
+a) pd.read_csv(r'_data_public_employee.sas7bdat'_encoding='utf-8') 
+b) pd.read_sas(r'_data_public_employee.sas7bdat'_encoding='ISO-8859-1')
+c) pd.read_csv(r'_data_public_employee.sas7bdat'_encoding='ISO-8859-1')
+
+a)a) pd.read_csv(r'_data_public_employee.sas7bdat'_encoding='utf-8')
+
+34) How to Load NumPy and MatPlotLib in Python Jupyter Notebook Using Magic A) %pylab, B) Import numpy as np, C)Import  matplotlib as mtp, D) Import numpy as np, Import matplotlib as mtp
+
+A) %pylab
+
+
+#https://chatgpt.com/share/e0dd2b78-424d-4fac-9f4c-d2c276faba0f
+
+35)which is not logistic regression model in Python    a)Sklearn.SGDClassifier(loss= log)
+
+b)Sklearn.linear model.LogisticRegression
+
+
+c)Sklearn.LogisticRegression
+
+d)import math
+
+def sigmoid(x):
+
+return 1/(1+math.exp(-x))
+
+
+ans) d)import math
+
+def sigmoid(x):
+
+return 1/(1+math.exp(-x)) 
+
+
+
+36) from pyspark import SparkContext
+
+# Initialize SparkContext
+sc = SparkContext("local", "Collect app")
+
+# Create an RDD from the list of words
+words = sc.parallelize([
+    "scala",
+    "java",
+    "hadoop",
+    "spark",
+    "spark vs hadoop",
+    "pyspark"
+])
+
+# Collect the elements of the RDD
+coll = words.collect()
+
+# Print the elements in the RDD
+print("Elements in RDD -> %s" % (coll))
+
+ans) Elements in RDD -> ['scala', 'java', 'hadoop', 'spark', 'spark vs hadoop', 'pyspark']
+
+37)from pyspark import SparkContext
+
+# Initialize SparkContext
+sc = SparkContext("local", "Map app")
+
+# Create an RDD from the list of words
+words = sc.parallelize([
+    "scala",
+    "java",
+    "hadoop",
+    "spark",
+    "spark vs hadoop",
+    "pyspark"
+])
+
+# Map each word to a tuple (word, 1)
+words_map = words.map(lambda x: (x, 1))
+
+# Collect the results into a list
+mapping = words_map.collect()
+
+# Print the key-value pairs
+print("Key value pair -> %s" % (mapping))
+
+ans) [('scala', 1), ('java', 1), ('hadoop', 1), ('spark', 1), ('spark vs hadoop', 1), ('pyspark', 1)]
+
+38) How to find the trace of data:      data = [[1,2,3],[4,5,6],[7,8,9]]
+
+a)trace=0 for i in range(1,len(data)+1 or j in range(1,len(data[i 1])+1): ifi==j trace+=data[i-1][j-1] print(trace)
+
+b) import numpy as np np.array(data).trace()
+
+c)import pandas as pd pd.trace(data)
+
+d) import numpy as np np.trace(data)
+
+e)import os 
+os.trace(data)
+
+ans) import numpy as np np.trace(data)
+
+39) class Test:
+
+    def __init__(self):
+
+        self.x = 0
+
+
+
+class Derived_Test(Test):
+
+    def __init__(self):
+
+        super().__init__()  # Correctly initialize the parent class
+
+        self.y = 1
+
+
+
+def main():
+
+    b = Derived_Test()  # Correct class name
+
+    print(b.x, b.y)
+
+
+
+main()
+
+a) 0 1,  B) 0, 0, C) Error, because Class B inherit A, but A variable X isn't inherited. D) Error, because when object is created, argument must be partial, like delivered, underscore, test, of 1.
+
+
+ans) a) 0 1
+
+40) def count_substring(string, sub_string):
+    count = 0
+    for i in range(len(string) - len(sub_string) + 1):
+        if string[i:i + len(sub_string)] == sub_string:
+            count += 1
+    return count
+
+if __name__ == "__main__":
+    string = input().strip()
+    sub_string = input().strip()
+    result = count_substring(string, sub_string)
+    print(result)
+
+ans) 3
+
+41) In Python 3.x re module, which of the following matches the end of a string? For Example: replace "<Answer>" with option re.match("test <Answer>","test") #should returm match object re.match("test<Answer>","test\n") #should return None  A)\n  b)\A c)\Z d) \s
+
+ans) c) \Z
+
+42) What is the best suit for the below standard exception? Value error. A. Invalid argument given. B. Invalid operator for type. C. Invalid operation for value. D. None of the above.
+
+ans) C. Invalid operation for value.
+
+43) System Software is a program that directs the overall operations of the computer, facilitate its use, and interact with the users. What are different types of software? A. Operating System B. Languages C. Utilities D. All of the above
+
+D.  All of the above
+
+44)  In PySpark, storage level decides following A)RDD should be stored in memory B) RDD should be stored on disk C) Whether to serialize RDD and whether to replicate RDD partitions?
+
+ans) C) Whether to serialize RDD and whether to replicate RDD partitions?
+
+45) which of the following method is used for transforming a sparse series indexed by a multi index to a scipy.sparse.coo_matrix a) sparseseries.to_coo b)series.to_coo c)sparseseries.to_cooser() d) be none of the mentioned
+
+as ) a) sparseseries.to_coo
+
+46) Regression algorithm in RNG uses following objects A. Ladner, B. Classifier, C. Regression, D. None of the above
+
+ans ) C. Regression
+
+47) Which variables are used for aggregating the information through associative and commutative operations? A. Broadcast B. Accumulator
+
+ans ) B. Accumulator
+
+48) which of the following is the Python based machine learning visual machine learning tool? A), WEK B) Rapidminor, C) Orange, D) none of the above.
+
+C) Orange
+
+49)What is the exception raised of an error that does not fall in any of the categories? a. Runtime error b. Reference error c. System error d. Lookup error
+
+ans) a. Runtime error
+
+which of the following is not a index object in Pandas A sparse series, B sparse data frame, C sparse panel, D none of the above.
+
+ans) C sparse panel
+
+50)If DIT is passed as input in pandas end, if no index is specified then a) the dictionary keys are taken in a stored order to construct the index b)the dictionary keys are taken in a non-stored order to construct the index
+
+ans) a) the dictionary keys are taken in a stored order to construct the index
+
+51)Flask is part of the microframework EAS Bino
+
+No
+
+52)which statement is true when you execute communities = to community.best_partition(G) A) the code will detect communities, B )the code will create a directory
+
+ans)A) the code will detect communities
+
+53)Which function is used to clone an image with a mask? A. Copy to B. Clone C. Copy Channel D. Clone Channel
+
+ans) B Clone
+
+54) What are data instances in orange A-Vectors, B-Vector access through Index, C-Vector access through FutureName?
+
+Ans) A-Vectors
+
+55)SparkContext uses which one to launch a JVM and creates a javaspark context by default a) py4j b) pyspark c) numpy
+
+ans) a) py4j
+
+56)What are the full stack web frameworks? A. Django B. Flask C. Bottle D. Web2py
+
+ans) A. Django
+
+57)CSV feed spider. Iterate through each of it rows. Receive a CSV file as a response and calls following method. A )parse_row, B )parse underscore column, C) parse underscore matrix,  D) column.
+
+
+ans)  A )parse_row
+
+58)When drawing lines of images, the thickness of the lines is controlled by thickness parameter. To draw a shape that is filled with the specified color, the thickness should be a-1, b-1, c less than 1, d greater than 1.
+
+ans) d greater than 1
+
+59)TextBlob uses following API as its backend in Python a. nltk b. gate
+
+ans) a. nltk
+
+60) PySpark can create how many Spark context A) multiple B) single C) 2 D) 3
+
+ans) A) multiple
+
+61)PySpark can create how many Spark Contests?
+
+ans) yes
+
+62)different ways to access Neo4j through Python A)Neo4j Bolt B) Neo4j REST API C)PyNeo4j D) all of the above
+
+D) all of the above
+
+
+63) Following queries are used in retrieving all objects from PY NEO4J a) node('*').all, B )node('*)  C )node('all').all, D none of the above.
+
+ans)  a) node('*').all
+
+64) The following allows the user to describe patterns in graphs in a declarative fashion using PyNeo4j, a Cypher-B SQL scripting, see none of mentioned.
+
+ans ) a Cypher
+
+65) Values of meta-attributes and all other non-meta-attributes are related similarly in orange. So it is stored in the A separate numpy array, B same numpy array, C separate sci-fi sparse matrix.
+
+ans ) B same numpy array
+
+66)Following paths are required while setting up PySpark environment. a. spark_home b. py4j c. none of the above
+
+ans) a. spark_home
+
+67) What are the inheritance styles in Django? a. Abstract Base Class b. Multi Table Inheritance c. Proxy Models d. Project Base
+
+ans) a,b,c
+
+68) What will be the output of following Python code? myDict = (1: Food',2: Clothing',3:"Shelter') print(myDict.get(4,5))
+
+ans ) 5
+
+69)Suppose u and v both have values of type set and u^v ==u-v from this we can conclude that a) u and v are identical b) u and v are disjoint c) u is a subset of v d) v is a subset of u
+
+ans ) b) u and v are disjoint
+
+70) different ways to access Neo4j through Python A)Neo4j Bolt B) Neo4j REST API C)PyNeo4j D) all of the above
+
+ans ) D) all of the above
+
+
+
+
+
+
+
+
+
+
+
+
