@@ -1,0 +1,253 @@
+https://www.examgo.com/exams/amazon/aws-certified-data-engineer-associate-dea-c01/
+
+
+https://free-braindumps.com/snowflake/free-snowpro-advanced-data-engineer-braindumps.html?p=2
+
+
+https://urldefense.com/v3/__https://system-test.onvue.com/system_test?customer=pearson_vue&clientcode=AWS&candidate_id=302721097&registration_id=492577092&locale=en-US__;!!OrxsNty6D4my!-9SQA2SUj5WI3eCcIDE30pq_e-yTdEDjgbqtSQsh-efJ_syaGmmU4LbQml-QmBccj-5FmWh10JFWpEBGMeCelirM3rA-bGr_h0xZ$
+
+
+
+https://urldefense.com/v3/__https://examlaunchpad.pearsonvue.com/entry-point/launch-exam/AWS/OP?registrationToken=y3WUOcnlo4C5*2FLHgOX3pDIZ5ZvpHJpqJyAPIxYSa48Z4racSE0IHfauvMOFrFCgE0hFpScBJQZ8wjO9eOxO*2B8*2BlQteHJlZKC1TrwGu6fuJPMIC*2F*2FM4lRMooqsZuhhurSrFlQWC3wNcKAe5zeiSWRdw*3D*3D&locale=en-US__;JSUlJSUlJQ!!OrxsNty6D4my!-9SQA2SUj5WI3eCcIDE30pq_e-yTdEDjgbqtSQsh-efJ_syaGmmU4LbQml-QmBccj-5FmWh10JFWpEBGMeCelirM3rA-bIme7Wh7$
+
+
+
+Question 1
+A data engineer set up an AWS Lambda function to read an object that is stored in an Amazon S3 bucket. The object is encrypted by an AWS KMS key.
+
+The data engineer configured the Lambda functions execution role to access the S3 bucket. However, the Lambda function encountered an error and failed to retrieve the content of the object.
+
+What is the likely cause of the error?
+
+A. The data engineer misconfigured the permissions of the S3 bucket. The Lambda function could not access the object.
+B. The Lambda function is using an outdated SDK version, which caused the read failure.
+C. The S3 bucket is located in a different AWS Region than the Region where the data engineer works. Latency issues caused the Lambda function to encounter an error.
+D. The Lambda functions execution role does not have the necessary permissions to access the KMS key that can decrypt the S3 object.
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+write your answer...
+SEND
+0 / 1000
+
+Question 2
+Two developers are working on separate application releases. The developers have created feature branches named Branch A and Branch B by using a GitHub repositorys master branch as the source.
+
+The developer for Branch A deployed code to the production system. The code for Branch B will merge into a master branch in the following weeks scheduled application release.
+
+Which command should the developer for Branch B run before the developer raises a pull request to the master branch?
+
+A. git diff branchB mastergit commit -m
+B. git pull master
+C. git rebase master
+D. git fetch -b master
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+write your answer...
+SEND
+0 / 1000
+
+Question 3
+A retail company stores data from a product lifecycle management (PLM) application in an on-premises MySQL database. The PLM application frequently updates the database when transactions occur.
+
+The company wants to gather insights from the PLM application in near real time. The company wants to integrate the insights with other business datasets and to analyze the combined dataset by using an Amazon Redshift data warehouse.
+
+The company has already established an AWS Direct Connect connection between the on-premises infrastructure and AWS.
+
+Which solution will meet these requirements with the LEAST development effort?
+
+A. Run a scheduled AWS Glue extract, transform, and load (ETL) job to get the MySQL database updates by using a Java Database Connectivity (JDBC) connection. Set Amazon Redshift as the destination for the ETL job.
+B. Run a full load plus CDC task in AWS Database Migration Service (AWS DMS) to continuously replicate the MySQL database changes. Set Amazon Redshift as the destination for the task.
+C. Use the Amazon AppFlow SDK to build a custom connector for the MySQL database to continuously replicate the database changes. Set Amazon Redshift as the destination for the connector.
+D. Run scheduled AWS DataSync tasks to synchronize data from the MySQL database. Set Amazon Redshift as the destination for the tasks.
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+write your answer...
+SEND
+0 / 1000
+
+Question 4
+A data engineer needs to debug an AWS Glue job that reads from Amazon S3 and writes to Amazon Redshift. The data engineer enabled the bookmark feature for the AWS Glue job.
+The data engineer has set the maximum concurrency for the AWS Glue job to 1.
+
+The AWS Glue job is successfully writing the output to Amazon Redshift. However, the Amazon S3 files that were loaded during previous runs of the AWS Glue job are being reprocessed by subsequent runs.
+
+What is the likely reason the AWS Glue job is reprocessing the files?
+
+A. The AWS Glue job does not have the s3:GetObjectAcl permission that is required for bookmarks to work correctly.
+B. The maximum concurrency for the AWS Glue job is set to 1.
+C. The data engineer incorrectly specified an older version of AWS Glue for the Glue job.
+D. The AWS Glue job does not have a required commit statement.
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+write your answer...
+SEND
+0 / 1000
+
+Question 5
+A company has implemented a lake house architecture in Amazon Redshift. The company needs to give users the ability to authenticate into Redshift query editor by using a third-party identity provider (IdP).
+
+A data engineer must set up the authentication mechanism.
+
+What is the first step the data engineer should take to meet this requirement?
+
+A. Register the third-party IdP as an identity provider in the configuration settings of the Redshift cluster.
+B. Register the third-party IdP as an identity provider from within Amazon Redshift.
+C. Register the third-party IdP as an identity provider for AVS Secrets Manager. Configure Amazon Redshift to use Secrets Manager to manage user credentials.
+D. Register the third-party IdP as an identity provider for AWS Certificate Manager (ACM). Configure Amazon Redshift to use ACM to manage user credentials.
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+write your answer...
+SEND
+0 / 1000
+
+Question 6
+A company plans to use Amazon Kinesis Data Firehose to store data in Amazon S3. The source data consists of 2 MB .csv files. The company must convert the .csv files to JSON format. The company must store the files in Apache Parquet format.
+
+Which solution will meet these requirements with the LEAST development effort?
+
+A. Use Kinesis Data Firehose to convert the .csv files to JSON. Use an AWS Lambda function to store the files in Parquet format.
+B. Use Kinesis Data Firehose to convert the .csv files to JSON and to store the files in Parquet format.
+C. Use Kinesis Data Firehose to invoke an AWS Lambda function that transforms the .csv files to JSON and stores the files in Parquet format.
+D. Use Kinesis Data Firehose to invoke an AWS Lambda function that transforms the .csv files to JSON. Use Kinesis Data Firehose to store the files in Parquet format.
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+write your answer...
+SEND
+0 / 1000
+
+Question 7
+A company is planning to use a provisioned Amazon EMR cluster that runs Apache Spark jobs to perform big data analysis. The company requires high reliability. A big data team must follow best practices for running cost-optimized and long-running workloads on Amazon EMR. The team must find a solution that will maintain the company's current level of performance.
+Which combination of resources will meet these requirements MOST cost-effectively? (Choose two.)
+
+A. Use Hadoop Distributed File System (HDFS) as a persistent data store.
+B. Use Amazon S3 as a persistent data store.
+C. Use x86-based instances for core nodes and task nodes.
+D. Use Graviton instances for core nodes and task nodes.
+E. Use Spot Instances for all primary nodes.
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+E
+
+write your answer...
+SEND
+0 / 1000
+
+Question 8
+A company is migrating a legacy application to an Amazon S3 based data lake. A data engineer reviewed data that is associated with the legacy application. The data engineer found that the legacy data contained some duplicate information.
+The data engineer must identify and remove duplicate information from the legacy application data.
+Which solution will meet these requirements with the LEAST operational overhead?
+
+A. Write a custom extract, transform, and load (ETL) job in Python. Use the DataFrame.drop_duplicates() function by importing the Pandas library to perform data deduplication.
+B. Write an AWS Glue extract, transform, and load (ETL) job. Use the FindMatches machine learning (ML) transform to transform the data to perform data deduplication.
+C. Write a custom extract, transform, and load (ETL) job in Python. Import the Python dedupe library. Use the dedupe library to perform data deduplication.
+D. Write an AWS Glue extract, transform, and load (ETL) job. Import the Python dedupe library. Use the dedupe library to perform data deduplication.
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+write your answer...
+SEND
+0 / 1000
+
+Question 9
+A data engineer finished testing an Amazon Redshift stored procedure that processes and inserts data into a table that is not mission critical. The engineer wants to automatically run the stored procedure on a daily basis.
+
+Which solution will meet this requirement in the MOST cost-effective way?
+
+A. Create an AWS Lambda function to schedule a cron job to run the stored procedure.
+B. Schedule and run the stored procedure by using the Amazon Redshift Data API in an Amazon EC2 Spot Instance.
+C. Use query editor v2 to run the stored procedure on a schedule.
+D. Schedule an AWS Glue Python shell job to run the stored procedure.
+ 
+Discussions
+vote your answer:
+A
+
+B
+
+C
+
+D
+
+write your answer...
+SEND
+0 / 1000
+
+Question 10
+A company stores details about transactions in an Amazon S3 bucket. The company wants to log all writes to the S3 bucket into another S3 bucket that is in the same AWS Region.
+Which solution will meet this requirement with the LEAST operational effort?
+
+A. Configure an S3 Event Notifications rule for all activities on the transactions S3 bucket to invoke an AWS Lambda function. Program the Lambda function to write the event to Amazon Kinesis Data Firehose. Configure Kinesis Data Firehose to write the event to the logs S3 bucket.
+B. Create a trail of management events in AWS CloudTraiL. Configure the trail to receive data from the transactions S3 bucket. Specify an empty prefix and write-only events. Specify the logs S3 bucket as the destination bucket.
+C. Configure an S3 Event Notifications rule for all activities on the transactions S3 bucket to invoke an AWS Lambda function. Program the Lambda function to write the events to the logs S3 bucket.
+D. Create a trail of data events in AWS CloudTraiL. Configure the trail to receive data from the transactions S3 bucket. Specify an empty prefix and write-only events. Specify the logs S3 bucket as the destination bucket.
